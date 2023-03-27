@@ -90,14 +90,24 @@ button {
 
 .information {
     display: flex;
+    justify-content: center;
+    gap: 30px;   
 }
 
 img{
     height: 100px;
     width: 100px;
 }
+
 .one, .two, .three, .four {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: 200px;
 
+
+}
+
+.subtext {
+    text-align: center;
 }
