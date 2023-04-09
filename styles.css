@@ -10,7 +10,7 @@ body {
     padding: 0;
 }
 
-.header {
+#header {
     background-color: #1F2937;
 }
 .first {
@@ -48,7 +48,7 @@ a {
     padding: 0;
 }
 
-.hero p {
+.hero div {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -88,6 +88,10 @@ button {
 
 }
 
+#information {
+    margin-bottom: 60px;
+}
+
 .information {
     display: flex;
     justify-content: center;
@@ -104,10 +108,67 @@ img{
     flex-direction: column;
     align-items: center;
     max-width: 200px;
-
+    gap: 10px;
 
 }
 
 .subtext {
     text-align: center;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+       
+}
+    .quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    
+}
+
+.author {
+    font-weight: bolder;
+    
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.cta_spc {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    border-radius: 6px;
+}
+
+.cta_txt {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_txt {
+    margin: 20px;
+
+    
 }
