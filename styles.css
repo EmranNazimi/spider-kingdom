@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .logo {
@@ -16,6 +17,7 @@ body {
 .first {
    display: flex;
    justify-content: space-around;
+   padding: 10px 0;
 }
 
 ul {
@@ -36,8 +38,9 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    flex-wrap: wrap;
-    
+    width: 400px;
+    gap: 10px;
+    margin-right: 10%;
 }
 
 .hero h1 {
@@ -54,13 +57,14 @@ a {
 }
 
 button {
+
     background-color: #3882F6;
     color: white;
     padding: 6px 24px;
     border-radius: 6px;
-    border-style: none;
+    border-style: solid;
     font-size: 15px;
-    
+
 }
 
 .img {
@@ -68,13 +72,20 @@ button {
     height: 190px;
     width: 450px;
     background-color: gray;
+    align-self: center;
+    
+}
+
+.hi {
+    display: flex;
 
 }
 
 .hero_img {
     display: flex;
-    justify-content: space-around;
     padding: 60px;
+    justify-content: space-around;
+    
    
     
 }
@@ -122,19 +133,23 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-       
 }
-    .quote {
+
+.quote_author {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    
+    width: 800px;
 }
 
 .author {
     font-weight: bolder;
-    
+    align-self: flex-end;
 }
 
 .cta {
@@ -150,13 +165,28 @@ img{
     justify-content: space-around;
     width: 600px;
     border-radius: 6px;
+    padding: 0 70px 0 70px;
 }
 
+.cta_txt h4 {
+    margin-top: 30px ;
+    margin-bottom: 0;
+
+}
 .cta_txt {
     color: white;
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
     
+}
+
+.cta_btn {
+    align-self: center;
+}
+
+.btn {
+    border-color: white;
 }
 
 .footer {
